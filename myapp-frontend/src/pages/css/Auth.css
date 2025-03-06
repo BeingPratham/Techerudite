@@ -1,0 +1,74 @@
+body {
+    background-color: #0d0d0d;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.auth-container {
+    width: 100%;
+    max-width: 400px; 
+    padding: 25px;
+    background: rgba(20, 20, 20, 0.95);
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3); 
+    text-align: center;
+}
+
+h2 {
+    color: #00ffcc;
+    text-shadow: 0 0 8px #00ffcc;
+    margin-bottom: 18px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid rgba(0, 255, 255, 0.6);
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.6); 
+    color: #ffffff; 
+    font-size: 16px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.5); 
+}
+
+input:focus {
+    border-color: #ff00ff;
+    box-shadow: 0 0 8px #ff00ff; 
+    outline: none;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #00c853, #00e676); /* Rich green shades */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 255, 127, 0.5); /* Soft green glow */
+}
+
+.submit-btn:hover {
+    background: linear-gradient(135deg, #00e676, #00c853); /* Reverse the gradient for effect */
+    box-shadow: 0 0 15px #00e676, 0 0 20px #00c853; /* Stronger glow on hover */
+    transform: scale(1.05); /* Slight scaling for interaction */
+}

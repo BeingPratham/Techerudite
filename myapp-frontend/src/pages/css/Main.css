@@ -1,0 +1,89 @@
+/* body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+button {
+    background: #00ffcc;
+    color: black;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00ffcc;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px #00ffcc;
+} */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 25px; /* Increased spacing between buttons */
+}
+
+button {
+    background: #00ffcc;
+    color: black;
+    border: none;
+    width: 280px; /* Fixed width for all buttons */
+    height: 55px; /* Fixed height for a rectangular shape */
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0 0 15px #00ffcc;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px #00ffcc;
+}
